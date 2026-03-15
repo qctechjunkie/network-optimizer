@@ -1,0 +1,37 @@
+# Environment files with secrets
+.env
+.env.local
+.env.*.local
+
+# Database data
+database/
+*.sql
+*.sqlite
+
+# Logs
+logs/
+*.log
+
+# Media and custom templates
+data/
+logs/
+ssh-keys/
+
+# Claude Code
+.claude/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Backup files
+*.bak
+*.backup
+
+# Temporary files
+tmp/
+temp/
